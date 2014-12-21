@@ -36,13 +36,13 @@ The following five steps do correspond to the steps mentioned in the course proj
 The code corresponding to step 1 will:
 
 - load the test and training datasets into R
-- merge the two datasets into one (called X_complete)
+- merge the two datasets into one (the merged dataset is called "X_complete")
 
 #### Step 2: Extract the Measurements of the Mean and Standard Deviation
 The code corresponding to step 2 will:
 
 - load the dataset containing the 561 features into R
-- check which features have the mean (mean()) and standard deviation (std()) in their names
+- check which features mention the mean (mean()) and standard deviation (std()) in their names
 - subset the dataset (X_complete) based on these 66 features, so that only the data for these features remain
 
 #### Step 3: Name the Activities
@@ -56,13 +56,13 @@ The code corresponding to step 3 will:
 #### Step 4: Name the Variables
 The code corresponding to step 4 will:
 
-- store the names of the features that have the mean (mean()) and standard deviation (std()) in their names
+- store the names of the features that mention the mean (mean()) and standard deviation (std()) in their names
 - replace the columnames of the complete dataset (X_complete) with these names, including the name "Activity" for the activity variable
 
 #### Step 5: Create the New Tidy Dataset
 The code corresponding to step 5 will:
 
-- load the two datasets that contain the subject numbers corresponding to observations into R
+- load the two datasets that contain the subject numbers into R
 - merge these two datasets so that one variable is created containing all the subject numbers corresponding to the observations in the complete dataset (X_complete)
 - add this variable to the complete dataset (X_complete) and name it "Subject"
 - use the dplyr package to group the complete dataset by subject and activity
