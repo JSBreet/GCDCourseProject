@@ -1,6 +1,6 @@
 Features
 ================
-The features used as variables in this study are derived from the smartphone's accelerometer and gyroscope. Detailed information about the features can be vfound [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#). The following signals were used to estimate the variables of the feature vector for each pattern ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions):
+The features used as variables in this study are derived from the smartphone's accelerometer and gyroscope. Detailed information about the features can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#). The following signals were used to estimate the variables of the feature vector for each pattern ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions):
 
 - tBodyAcc-XYZ
 - tGravityAcc-XYZ
