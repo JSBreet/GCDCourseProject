@@ -70,7 +70,7 @@ The code corresponding to step 5 will:
 - save the result in the new dataset called "tidydata"
 - save the tidydata file as a text file ("tidydata.txt")
 
- [Click here to view the processing script](https://github.com/JSBreet/GCDCourseProject/blob/master/run_analysis.R).
+[Click here to view the processing script](https://github.com/JSBreet/GCDCourseProject/blob/master/run_analysis.R).
 
 ### tidydata.txt
 This textfile contains the tidy dataset as produced by the processing script described above. [Click here to view the dataset](https://github.com/JSBreet/GCDCourseProject/blob/master/tidydata.txt).
