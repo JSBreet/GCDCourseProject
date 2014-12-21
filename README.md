@@ -15,10 +15,10 @@ This repository contains the following files next to this readme document:
 Each of these files will be discussed next.
 
 ### Codebook.md
-The codebook contains information about the way the original data was collected (the study set-up). It provides a description of the raw dataset and its variables. In addition, it describes the tidy dataset (stored as tidydata.txt) and its variables.
+The codebook contains information about the way the original data was collected (the study set-up). It provides a description of the raw dataset and its variables. In addition, it describes the tidy dataset (stored as tidydata.txt) and its variables. [Click here to view the codebook](https://github.com/JSBreet/GCDCourseProject/blob/master/Codebook.md).
 
 ### Features.md
-This document serves as a supplement to the codebook. It provides a description and a list of the feature-variables used in the raw dataset. 
+This document serves as a supplement to the codebook. It provides a description and a list of the feature-variables used in the raw dataset. [Click here to view the features document](https://github.com/JSBreet/GCDCourseProject/blob/master/Features.md).
 
 ### run_analysis.R
 This file contains the processing script that can be used to process the raw data into the tidy dataset. The script contains both the R code and descriptions of how this code is supposed to work. A general description of how the script processes the raw data will be presented next.
@@ -70,8 +70,10 @@ The code corresponding to step 5 will:
 - save the result in the new dataset called "tidydata"
 - save the tidydata file as a text file ("tidydata.txt")
 
+ [Click here to view the processing script](https://github.com/JSBreet/GCDCourseProject/blob/master/run_analysis.R).
+
 ### tidydata.txt
-This textfile contains the tidy dataset as produced by the processing script described above. 
+This textfile contains the tidy dataset as produced by the processing script described above. [Click here to view the dataset](https://github.com/JSBreet/GCDCourseProject/blob/master/tidydata.txt).
 
 ### References
 [1]: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.
