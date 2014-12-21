@@ -23,18 +23,18 @@ The raw dataset consists of the following data:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
 - Triaxial angular velocity from the gyroscope.  
+- The data corresponding to the above-mentioned variables are stored in two seperate text files, one for the test dataset and one for the train dataset (X_test.txt and X_train.txt). They are normalized and bounded within -1 and 1.
 - A 561-feature vector with time and frequency domain variables. For the complete list of features click [here](https://github.com/JSBreet/GCDCourseProject/blob/master/Features.md). 
-- The data corresponding to the above-mentioned variables are stored in two seperate text files, one for the test dataset and one for the train dataset (X_test.txt and X_train.txt). The feature values are normalized and bounded within -1 and 1.
 - Activity labels. The labels correspond with the six acitivities discussed above. The data indicating which label correspond with which observation are stored in two seperate text files (y_test.txt and y_train.txt)
 - An identifier of the subject who carried out the experiment. As discussed above, 30 volunteers participated in the experiments. The variable that indicates the subject per observation is stored in two sperate text files as well (subject_test.txt and subject_train.txt)
 
 ### 3. Tidy Dataset
-The tidy dataset consists of 180 observations of 68 variables. Of the 561-feature vectors of the raw dataset, only those vectors that represent a mean or standard deviation have been retained. For each of these vectors, the mean of the observations has been calculated per activity per participant. In other words, the tidydataset contains the mean of 66 feature-variables for the six activities performed by each respondent. The tidy dataset is stored in tidydata.txt and a step-by-step description of the way the raw dataset has been processed is presented in the [readme file](https://github.com/JSBreet/GCDCourseProject/blob/master/README.md). A list of variables is presented next:
+The tidy dataset consists of 180 observations of 68 variables. Of the 561-feature variables of the raw dataset, only those variables that represent a mean or standard deviation have been retained. For each of these variables, the mean of the observations has been calculated per activity per participant. In other words, the tidydataset contains the mean of 66 feature-variables for the six activities performed by each respondent. The tidy dataset is stored in tidydata.txt and a step-by-step description of the way the raw dataset has been processed is presented in the [readme file](https://github.com/JSBreet/GCDCourseProject/blob/master/README.md). A list of variables is presented next:
 
 1. Subject. Integer variable indicating the respondent ranging from 1 to 30.
 2. Activity. Factor variable indicating one of the six activities: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" and "LAYING".
 
-The following 66 feature-variables are numeric variables and contain the mean of the observations corresponding to the activity and the person who performed the activity. As the original observations range are bounded within -1 and 1, these variables are bounded to the same values.
+The following 66 feature-variables are numeric variables and contain the mean of the observations corresponding to the activity and the person who performed the activity. As the original observations are bounded within -1 and 1, these variables are bounded to the -1 and 1 as well.
 
 3. tBodyAcc-mean()-X
 4. tBodyAcc-mean()-Y
